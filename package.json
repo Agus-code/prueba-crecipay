@@ -1,0 +1,35 @@
+{
+  "name": "prueba-crecipay",
+  "version": "1.0.0",
+  "description": "Technical challenge for crecipay",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index",
+    "dev": "nodemon dist/index",
+    "build": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agus-code/prueba-crecipay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agus-code/prueba-crecipay/issues"
+  },
+  "homepage": "https://github.com/Agus-code/prueba-crecipay#readme",
+  "dependencies": {
+    "body-parser": "2.2.0",
+    "csv-parse": "5.6.0",
+    "express": "5.1.0",
+    "express-formidable": "1.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.1",
+    "@types/express-formidable": "1.2.3",
+    "@types/node": "22.14.0",
+    "nodemon": "3.1.9",
+    "typescript": "5.8.3"
+  }
+}
