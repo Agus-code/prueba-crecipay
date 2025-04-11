@@ -36,7 +36,7 @@ Server runs on port 5000
 
 ## Explicación final
 
-# Utilice las siguientes herramientas para el desarrollo
+### Utilice las siguientes herramientas para el desarrollo
 - Node / para el desarrollo de la aplicacion
 - Express / framework para la creacion de las rutas del api
 - No utilice base de datos, guardo todo en memoria 
